@@ -226,7 +226,7 @@ dependencies = [
 [[package]]
 name = "stride_core"
 version = "0.1.0"
-source = "git+https://github.com/stride-tasks/stride.git?rev=b4a08df7153ede134900e151026c16bf8acdfdf4#b4a08df7153ede134900e151026c16bf8acdfdf4"
+source = "git+https://github.com/stride-tasks/stride.git?rev=f036fda9af5b854bc9d76c9001cdf529937aab2f#f036fda9af5b854bc9d76c9001cdf529937aab2f"
 dependencies = [
  "chrono",
  "serde",
@@ -236,7 +236,7 @@ dependencies = [
 [[package]]
 name = "stride_plugin"
 version = "0.1.0"
-source = "git+https://github.com/stride-tasks/stride.git?rev=b4a08df7153ede134900e151026c16bf8acdfdf4#b4a08df7153ede134900e151026c16bf8acdfdf4"
+source = "git+https://github.com/stride-tasks/stride.git?rev=f036fda9af5b854bc9d76c9001cdf529937aab2f#f036fda9af5b854bc9d76c9001cdf529937aab2f"
 dependencies = [
  "serde",
  "serde_json",
