@@ -1,0 +1,32 @@
+api = "v1"
+name = "template-stride-plugin"
+
+# # A timer event is sent with the specified interval
+# [event.timer]
+# interval = 10 # In seconds
+
+[event.task]
+# Allow recieving create task events
+create = true
+
+# # Allow recieving events when a task is modified.
+# modify = false
+
+# # Allow recieving task sync events.
+# sync = false
+
+[permission.task]
+# # Allow this plugin to query arbitrary tasks.
+# query = true
+
+# Allow this plugin to create tasks
+create = true
+
+# # Request permissions for making network access.
+# [permission.network]
+# # Specify the whilelist of URL, all other urls will be blocked.
+# urls = []
+
+# # Allow plugin to have state, plugin storage is a key-value pair.
+# [permission.storage]
+# max-size = 1 # 1KB

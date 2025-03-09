@@ -1,0 +1,17 @@
+[package]
+name = "stride-plugin-template" # TODO: Change name
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+stride_plugin = { git = "https://github.com/stride-tasks/stride.git", rev = "84b452b85e4eb2873cf3870895bb49d40358108f" }
+
+[profile.release]
+codegen-units = 1
+lto = true
+opt-level = 'z'
+panic = "abort"
+#strip = true
