@@ -7,7 +7,7 @@ edition = "2021"
 crate-type = ["cdylib", "rlib"]
 
 [dependencies]
-stride_plugin = { git = "https://github.com/stride-tasks/stride.git", rev = "f036fda9af5b854bc9d76c9001cdf529937aab2f" }
+stride_plugin = { git = "https://github.com/stride-tasks/stride.git", rev = "b39b66b98fb63b1c40e812ad316bd81b7bb5172b" }
 
 [profile.release]
 codegen-units = 1
