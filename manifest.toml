@@ -2,7 +2,7 @@ api = "v1"
 name = "finki-plugin"
 
 [event.timer]
-interval = 15 # In seconds
+interval = 60 # In seconds
 
 [permission.task]
 create = true
